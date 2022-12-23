@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#main{
+  width: 95%;
+  min-height:95%;
+  padding: 5%;
+  border-radius: 2%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+/*   Horizontal containers */
+  display:flex;
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+#reportsGrid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.reportCard{
+  margin-right: 7px;
+  position: relative;
+}
+.copyBtn{
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  opacity: 0.8;
+}
